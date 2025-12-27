@@ -17,7 +17,7 @@ A simple and clean Employee Task Management UI built using **HTML, CSS, JavaScri
 - JavaScript (ES6)
 - jQuery
 
-# Live Demo (GitHub Pages link will be added here)
+# Live Demo ([ GitHub Pages link will be added here](https://himanshurai3721.github.io/employee-task-manager-ui/ ))
 
 # Note
 This repository contains the **frontend** part of the project.
