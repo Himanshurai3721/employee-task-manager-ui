@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Manage Tasks</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="d-flex">
+
+  <!-- SIDEBAR -->
+  <div id="sidebar"></div>
+
+  <!-- MAIN CONTENT -->
+  <div class="flex-grow-1 p-4">
+
+    <h2 class="mb-4">Manage Tasks</h2>
+
+    <div class="card shadow">
+      <div class="card-body">
+
+        <table class="table table-bordered table-striped align-middle">
+          <thead class="table-dark">
+            <tr>
+              <th>#</th>
+              <th>Task Title</th>
+              <th>Assigned To</th>
+              <th>Priority</th>
+              <th>Status</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+
+          <!-- JS injects rows here -->
+          <tbody id="taskTableBody">
+          </tbody>
+
+        </table>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<!-- Load Sidebar -->
+<script>
+  $("#sidebar").load("sidebar.html");
+</script>
+
+<!-- App JS -->
+<script src="js/app.js"></script>
+
+</body>
+</html>
